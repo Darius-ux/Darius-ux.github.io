@@ -6,6 +6,6 @@ function on_gyro_data_uab(e)
 {
 	document.getElementById("id_alpha").innerHTML=Math.round(e.alpha * 100)/100;
 	document.getElementById("id_beta").innerHTML=Math.round(e.beta * 100)/100;
-	document.getElementById("id_gamma").innerHTML=math.round(e.gamma * 100)/100;
+	document.getElementById("id_gamma").innerHTML=Math.round(e.gamma * 100)/100;
 }
 
