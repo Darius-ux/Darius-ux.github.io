@@ -8,12 +8,14 @@ function deseneaza(unghi_x, unghi_y)
 	//obtinem context grafic
 	var canvas = document.getElementById("id_canvas");
 	var context=canvas.Context("2d");
+	var r=10;
+	context.clearRect(0,0, canvas.width, canvas.height);
 	// construim o cale
 	context.beginPath();
 	//adaugam un cerc la cale
 	var x=unghi_x/90*(canvas_width / 2-r) + canvas.width/2;
 	var y=unghi_y/90*(canvas_width / 2-r) + canvas.height/2;
-	context.arc(x,y,r,0,2,*,Nath.PI);
+	context.arc(x,y,r,0,2,*,Math.PI);
 	//desenam calea
 	context.stroke();
 }
