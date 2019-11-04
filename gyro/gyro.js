@@ -15,7 +15,7 @@ function deseneaza(unghi_x, unghi_y)
 	//adaugam un cerc la cale
 	var x=unghi_x/90*(canvas_width / 2-r) + canvas.width/2;
 	var y=unghi_y/90*(canvas_width / 2-r) + canvas.height/2;
-	context.arc(x,y,r,0,2,*,Math.PI);
+	context.arc(x,y,r,0,2*Math.PI);
 	//desenam calea
 	context.stroke();
 }
