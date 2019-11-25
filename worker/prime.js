@@ -1,7 +1,7 @@
 
 function este_prim(n)
 {
-	for(var i=2; i<10; i++)
+	for(var i=2; i*i <=n; i++)
 		if(n% i == 0)
 			return false;
 	return true;
