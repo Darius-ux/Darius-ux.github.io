@@ -13,6 +13,6 @@ function touch_start_uab(p)
 	var t = p.changedTouches;
 	for (var i=0; i<t.length; i++){
 		context.beginPath();
-	context.arc(t[i].pageX, t[i].pageY. 10, 0, 2*Math.PI;
+	context.arc(t[i].pageX, t[i].pageY, 10, 0, 2*Math.PI;
 	}
 }
