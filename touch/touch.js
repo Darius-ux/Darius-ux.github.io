@@ -85,5 +85,6 @@ function touch_end_uab(p)
 				index_t=j;
 				break;
 			}
+			last_position.splice(index_t);
 	}
 }
