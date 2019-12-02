@@ -36,7 +36,7 @@ function touch_start_uab(p)
 	touch_info.color=get_random_color();
 	
 	context.beginPath();
-	context.arc(t[i].pageX, t[i].pageY, 10, 0, 2* Math.PI);
+	context.arc(t[i].pageX-canvas_rect.left, t[i].pageY-canvas_rect.top, 10, 0, 2* Math.PI);
 	context.strokestyle = touch_info.color;
 	context.fillstyle=touch_info.color;
 	context.fill();
@@ -48,6 +48,7 @@ function touch_start_uab(p)
 
 function touch_move_uab(p)
 {
+	p.preventDefault();
 	var t = p.changedTouches;
 	for (var i=0; i<t.length; i++){
 		
@@ -59,7 +60,7 @@ function touch_move_uab(p)
 		}
 		context.beginPath();
 		context.moveTo(last_position[index_t].x-canvas_rect.left,last_position[index_t].y-canvas_rect.top);
-		context.lineTo(t[i].pageX-canvas_rect.left, t[i].pageY-canvas)_rect.top);
+		context.lineTo(t[i].pageX-canvas_rect.left, t[i].pageY-canvas_rect.top);
 		context.strokestyle = last_position[index_t].color;
 	context.fillstyle=last_position[index_t].color;
 	context.lineWidth=20;
