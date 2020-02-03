@@ -13,3 +13,6 @@ Cum se compileaza, ruleaza: Pentru partea de notes, introducem datele intr-o cas
                             Accesarea de locatie: apasam un buton si ne arata pozitia in latitudine si longitudine.
                             Accesare camera si microfon: Pur si simplu efectueaza o inregistrare de 5 secunde, dupa care avem posibilitatea sa o
                             descarcam.
+
+
+Screenshot aplicatie: ![](imagini/screenshot.jpg)
