@@ -15,4 +15,4 @@ Cum se compileaza, ruleaza: Pentru partea de notes, introducem datele intr-o cas
                             descarcam.
 
 
-Screenshot aplicatie: ![](imagini/screenshot.png)
+Screenshot aplicatie: ![](https://github.com/Darius-ux/Darius-ux.github.io/blob/master/imagini/screenshot.png)
